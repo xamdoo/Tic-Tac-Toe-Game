@@ -3,3 +3,76 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(172, 140, 153);
+}
+
+.background {
+    background-color:rgb(102, 70, 83) ;
+    height: 100vh;
+    padding-top: 1px;
+}
+.title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7%;
+    margin-bottom: 16px;
+}
+
+.players-container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    width: 20%;
+    margin-top: 16px;
+    margin-left: 40%;
+    justify-content: space-evenly;
+}
+
+.pl {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+    background-color: rgba(41, 6, 21, 0.4);
+    box-shadow: 0 0 0 1px #333333;
+}
+
+#box {
+    border: 2px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerx, .playero {
+    color: #ffffff;
+}
+
+
+#reset {
+    color: #000000;
+    background-color: #ffffff;
+    margin-left: 48%;
+    margin-top: 20px;
+    padding: 0.2rem;
+    font-weight:600;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}

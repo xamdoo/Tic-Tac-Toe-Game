@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="background">
+        <h1 class="title">TIC TAC TOE</h1>
+        <div class="box-container">
+            <div data-cell-index="0" id="box"></div>
+            <div data-cell-index="1" id="box"></div>
+            <div data-cell-index="2" id="box"></div>
+            <div data-cell-index="3" id="box"></div>
+            <div data-cell-index="4" id="box"></div>
+            <div data-cell-index="5" id="box"></div>
+            <div data-cell-index="6" id="box"></div>
+            <div data-cell-index="7" id="box"></div>
+            <div data-cell-index="8" id="box"></div>
+        </div>
+        <section class="players-container">
+            <div class="pl"><span class="playerx">PLAYER1 (X)</span><span class="score">0</span></div>
+            <div class="pl"><span class="tie">TIE</span><span class="score">0</span></div>
+            <div class="pl"><span class="playero">PLAYER2 (O)</span><span class="score">0</span></div>       
+        </section>
+        <h2 class="game--status"></h2>
+        <section class="controls">
+            <button id="reset">RESET</button>
+        </section>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>
